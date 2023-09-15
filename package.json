@@ -1,0 +1,15 @@
+{
+  "name": "4_1_k_vicentina",
+  "version": "1.0.0",
+  "description": "____\r ### Age: 22\r ____\r ### This is an example of a full stack web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "4_1_k_vicentina_web"
+  },
+  "author": "Kurt Vicentina",
+  "license": "ISC"
+}
