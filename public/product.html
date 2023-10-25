@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Products</title>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">E-Commerce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Products</a>
+              </li>
+              <button type="button" class="btn btn-warning mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Add Product
+              </button>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+          <button type="button" class="btn btn-primary position-relative">
+            Cart <span class="position-absolute top-0 start-95 translate-middle badge rounded-pill bg-danger p-1">69 </span>
+          </button>
+        </div>
+      </nav>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Add a product</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Product Name">
+                <label for="floatingInput">Product Name</label>
+              </div>
+              <div class="input-group mt-2">
+                <span class="input-group-text">Description</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <div class="input-group mt-2">
+                <span class="input-group-text">₱</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text">.00</span>
+              </div>
+              <div class="mt-2">
+                <label class="mb-2">Product Image</label>
+                <div class="input-group">
+                <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+              </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Add Product</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    <div class="container mt-3">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-80">
+            <img src="C:\Users\April\Desktop\4_1_K_Vicentina\images\gin1.webp" class="card-img-top img-thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Bilog</h5>
+              <p class="card-text">Sip the Philippines' GSM Gin Bilog, where every swirl of juniper-infused delight takes you on a tropical journey in a single glass.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Price:</small>
+              <button type="button" class="btn btn-dark btn-sm">₱ 70</button>
+              <button type="button" class="btn btn-outline-success btn-sm ml-5">Add to cart</button>
+              <button type="button" class="btn btn-outline-primary btn-sm px-3">♥︎</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-80">
+            <img src="C:\Users\April\Desktop\4_1_K_Vicentina\images\gin2.webp" class="card-img-top img-fluid img-thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Kwatro</h5>
+              <p class="card-text">Elevate your evening with the exotic allure of Kwatro Kantos Gin, a tantalizing fusion of Filipino flavors that dance on your taste buds.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Price:</small>
+              <button type="button" class="btn btn-dark btn-sm">₱ 70</button>
+              <button type="button" class="btn btn-outline-success btn-sm ml-5">Add to cart</button>
+              <button type="button" class="btn btn-outline-primary btn-sm px-3">♥︎</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-80">
+            <img src="C:\Users\April\Desktop\4_1_K_Vicentina\images\empi.webp" class="card-img-top img-fluid img-thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Empi</h5>
+              <p class="card-text">Indulge in the rich and timeless taste of Emperador Whiskey, where every sip echoes the elegance of aged perfection.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Price:</small>
+              <button type="button" class="btn btn-dark btn-sm">₱ 70</button>
+              <button type="button" class="btn btn-outline-success btn-sm ml-5">Add to cart</button>
+              <button type="button" class="btn btn-outline-primary btn-sm px-3">♥︎</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
